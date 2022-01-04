@@ -126,6 +126,11 @@ def team_players(*team):
     for names in team[0]:
         guardian_names.extend(names['guardians'])
 
+    # Add to dataset
+    team[0].append("Average Height: " + str(average_height_rounded))
+    team[0].append("Inexperienced Players: " + str(inexperienced_players_count))
+    team[0].append("Experienced Players: " + str(experienced_players_count))
+
     # Print to Screen
     print(f'''\n=-=-= Team Name: {team_name} =-=-=
        \nTotal Players: {total_players}
@@ -135,6 +140,7 @@ def team_players(*team):
     print('''\n* Arranged Shortest to Tallest: *
             \rPlayers: ''' + ', '.join(player_names))
     print("\rGuardians: " + ', '.join(guardian_names) + '\n')
+
 
 if __name__ == '__main__':
     team_cleaner()
