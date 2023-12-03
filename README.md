@@ -32,6 +32,7 @@ Upon using this program, a main menu will greet you. Two options are available: 
 Entering A will bring you to another menu to input the corresponding letter of the team you wish to view. 
 
 #### Example
+ ```python
 Welcome To Cody's Basketball Tools!
 
 Please enter the letter of the action
@@ -39,20 +40,23 @@ you want to perform.
 Enter A for Team Stats
 Enter B to exit the program
 Enter Command:
-
+```
 
 #### Team sub-menu
 
+ ```python
 Please Enter the Letter of the Team you want to view.
 A) Panthers
 B) Bandits
 C) Warriors
 D) Quit
+```
 
 #### Output
 
 For this example, let us see the Panther's stats. Entering A will output the following:
 
+```python
 =-=-= Team Name: Team Panthers =-=-=
 
 Total Players: 6
@@ -65,6 +69,7 @@ Players: Joe Kavalier, Matt Gill, Karl Saygan, Les Clay, Herschel Krustofski, Ev
 Guardians: Sam Kavalier, Elaine Kavalier, Charles Gill, Sylvia Gill, Heather Bledsoe, Wynonna Brown, Hyman Krustofski, Rachel Krustofski, Wendy Martin, Mike Gordon
 
 Press Enter to Return to Menu...
+```
 
 #### Exiting
 Entering will return you to the team sub-menu. You can also exit the program from that sub-menu. 
