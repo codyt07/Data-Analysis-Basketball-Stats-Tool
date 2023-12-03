@@ -133,10 +133,10 @@ def team_players(*team):
 
     # Print to Screen
     print(f'''\n=-=-= Team Name: {team_name} =-=-=
-       \nTotal Players: {total_players}
-       \rTotal Experienced: {experienced_players_count}
-       \rTotal Inexperienced: {inexperienced_players_count}
-       \rAverage Height: {average_height_rounded}''')
+        \nTotal Players: {total_players}
+        \rTotal Experienced: {experienced_players_count}
+        \rTotal Inexperienced: {inexperienced_players_count}
+        \rAverage Height: {average_height_rounded}''')
     print('''\n* Arranged Shortest to Tallest: *
             \rPlayers: ''' + ', '.join(player_names))
     print("\rGuardians: " + ', '.join(guardian_names) + '\n')
